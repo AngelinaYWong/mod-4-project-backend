@@ -1,7 +1,7 @@
 class CreatePlanets < ActiveRecord::Migration[5.2]
   def change
     create_table :planets do |t|
-      t.integer :name
+      t.string :name
       t.integer :mass
       t.integer :diameter
       t.integer :density
@@ -13,6 +13,7 @@ class CreatePlanets < ActiveRecord::Migration[5.2]
       t.integer :orbital_velocity
       t.integer :mean_temperature
       t.integer :number_of_moons
+      t.integer :user_id
 
       t.timestamps
     end
