@@ -1,7 +1,7 @@
 class PlanetsController < ApplicationController
 
   def index
-    @planets = Planets.all
+    @planets = Planet.all
     render json: @planets
   end
 
@@ -14,5 +14,11 @@ class PlanetsController < ApplicationController
   def params
 
   end
+
+  # def
+  #   url = "https://dry-plains-91502.herokuapp.com/planets"
+  #   byebug
+  #   data = JSON.parse(open(url).read)
+  # end
 
 end

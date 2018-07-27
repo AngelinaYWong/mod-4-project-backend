@@ -14,6 +14,7 @@ class CreatePlanets < ActiveRecord::Migration[5.2]
       t.integer :mean_temperature
       t.integer :number_of_moons
       t.integer :user_id
+      t.string :img_url
 
       t.timestamps
     end
