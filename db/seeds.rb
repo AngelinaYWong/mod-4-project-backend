@@ -5,6 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
 planets =[
 {
 name: "Mercury",
@@ -19,7 +21,7 @@ orbital_period: 88.0,
 orbital_velocity: 47.4,
 mean_temperature: 167,
 number_of_moons: 0,
-img_url: 'app/media/mercury.jpg',
+img_url: '/Users/jeeannagraeff/flatiron_labs/module4/mod-4-project-backend/app/media/mercury.jpg',
 user_id: 1
 },
 {
@@ -35,7 +37,7 @@ orbital_period: 224.7,
 orbital_velocity: 35.0,
 mean_temperature: 464,
 number_of_moons: 0,
-img_url:'app/media/venus.jpg',
+img_url:'/Users/jeeannagraeff/flatiron_labs/module4/mod-4-project-backend/app/media/venus.jpg',
 user_id: 1
 },
 {
@@ -51,7 +53,7 @@ orbital_period: 365.2,
 orbital_velocity: 29.8,
 mean_temperature: 15,
 number_of_moons: 1,
-img_url:'app/media/earth.jpg',
+img_url:'/Users/jeeannagraeff/flatiron_labs/module4/mod-4-project-backend/app/media/earth.jpg',
 user_id: 1
 },
 {
@@ -67,7 +69,7 @@ orbital_period: 687.0,
 orbital_velocity: 24.1,
 mean_temperature: -65,
 number_of_moons: 2,
-img_url: 'app/media/mars.jpg',
+img_url: '/Users/jeeannagraeff/flatiron_labs/module4/mod-4-project-backend/app/media/mars.jpg',
 user_id: 1
 },
 {
@@ -83,7 +85,7 @@ orbital_period: 4331.0,
 orbital_velocity: 13.1,
 mean_temperature: -110,
 number_of_moons: 67,
-img_url: 'app/media/jupiter.jpg',
+img_url: '/Users/jeeannagraeff/flatiron_labs/module4/mod-4-project-backend/app/media/jupiter.jpg',
 user_id: 1
 },
 {
@@ -99,7 +101,7 @@ orbital_period: 10.0,
 orbital_velocity: 9.7,
 mean_temperature: -140,
 number_of_moons: 62,
-img_url: 'app/media/saturn.jpg',
+img_url: '/Users/jeeannagraeff/flatiron_labs/module4/mod-4-project-backend/app/media/saturn.jpg',
 user_id: 1
 },
 {
@@ -115,7 +117,7 @@ orbital_period: 30.0,
 orbital_velocity: 6.8,
 mean_temperature: -195,
 number_of_moons: 27,
-img_url: 'app/media/uranus.jpg',
+img_url: '/Users/jeeannagraeff/flatiron_labs/module4/mod-4-project-backend/app/media/uranus.jpg',
 user_id: 1
 },
 {
@@ -131,7 +133,7 @@ orbital_period: 59.0,
 orbital_velocity: 5.4,
 mean_temperature: -200,
 number_of_moons: 14,
-img_url:'app/media/neptune.jpg',
+img_url:'/Users/jeeannagraeff/flatiron_labs/module4/mod-4-project-backend/app/media/neptune.jpg',
 user_id: 1
 },
 {
