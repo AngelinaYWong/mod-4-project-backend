@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_07_26_214636) do
+ActiveRecord::Schema.define(version: 2018_07_30_150048) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,8 +28,14 @@ ActiveRecord::Schema.define(version: 2018_07_26_214636) do
     t.integer "orbital_velocity"
     t.integer "mean_temperature"
     t.integer "number_of_moons"
+    t.string "description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "progresses", force: :cascade do |t|
     t.integer "user_id"
-    t.string "img_url"
+    t.integer "planet_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -38,7 +44,6 @@ ActiveRecord::Schema.define(version: 2018_07_26_214636) do
     t.string "username"
     t.string "password_digest"
     t.string "name"
-    t.integer "progress"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
